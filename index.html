@@ -7,6 +7,24 @@
     <title>Week 5-Image optiminization</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+<div class="container">
+    <h1>Responsive Images</h1>
+    <section>
+        <h2>Same images different sizes</h2>
+        <img srcset="https://placehold.co/600x400 600w, 
+            https://placehold.co/1000x600 1000w, 
+            https://placehold.co/1200x800 1200w"
+            sizes="(max-width: 600px) 600px, (max-width: 1000px) 1000px, (max-width:1200px) 1200px"
+            src="https://placehold.co/1000x600" alt="placehold">
+    </section>
+    <section>
+        <h2>Same image different resolutions</h2>
+        <img srcset="https://placehold.co/100x100,
+        https://placehold.co/200x200 2x,
+        https://placehold.co/300x300 3x" sec="https://placehold.co/200x200" alt="placehold" class="avator">
+    </section>
+
+</div>
 
 <body>
 
